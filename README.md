@@ -1,18 +1,55 @@
-# CalisoV1
-Caliso: App de Recordatorios
-Documentación
+#Caliso - Aplicación de Recordatorios de Tareas y Objetos
+###Nombre del Proyecto: Caliso
+###Versión: 1.0.0
+###Fecha: Octubre 2024
 
-Introducción:
-Caliso surge como una aplicación de Recordatorios para satisfacer la necesidad de un recurso para no olvidar tareas, acciones u objetos en nuestro día a día, una persona olvidadiza se ve a diario, Caliso viene a plantear una solución para ese problema.
-Su alcance está diseñado para abarcar públicos de todas las edades, con interfaces intuitivas y funcionalidad amigable para el usuario.
-La metodología que llevará el equipo al desarrollar Caliso será SCRUM, apoyado de Trello con Sprints y Backlogs que le den flujo al proyecto, para así dar resultados prontos y funcionales, igualmente para solucionar problemas que puedan surgir o nuevas funciones que satisfagan necesidades comunes.
-Planteamiento del Problema:
-El problema que combate Caliso es el olvidar cosas que se tienen que hacer con inmediatez o ya tienen tiempo de antelación, pues no importa el lugar o el contexto, siempre podemos llegar a olvidar cosas que debemos hacer al momento.
-Desde olvidar nuestras tareas diarias, olvidar las llaves del auto, lentes, accesorios o necesitar listas de tareas para organizar nuestro día, la dirección que lleva Caliso apunta hacia la organización desde su creación.
-Justificación del Problema:
-Nadie está exento de olvidar algo que tiene pensado llevar o hacer, ya sea un trabajador, un estudiante, un deportista o un oficinista, todos tienen tareas asignadas que, si no son organizadas y estructuradas de una manera efectiva, son propensas a ser olvidadas.
-La necesidad de recordar nuestras tareas o acciones que necesitamos hacer en el día siempre está presente, esta es la problemática a combatir, con Caliso el usuario será capaz de plasmar sus tareas a recordar y el programa le ayudará a recordar, organizar y llevar mejores hábitos en su vida diaria, laboral o deportiva.
-Funciones especiales de Caliso:
-Recordatorios de objetos: Al salir de casa, te puedes olvidar de las llaves, de tu memoria USB o de llevar dinero, Caliso con su función de recordatorios de objetos tendrá una lista de recordatorios de lunes a domingo dedicados específicamente a objetos; donde el usuario decidirá si sus recordatorios serán fijos para cada semana o solamente serán recordados una vez. Así, cuando el usuario salga de casa o de cualquier establecimiento, podrá revisar su lista de recordatorios para saber si se olvida de algo importante.
- 
-Recordatorios efímeros: Los recordatorios efímeros son recordatorios que desaparecen después de que se cumpla una o más condiciones, por ejemplo; si el usuario necesita recordar que debe llevar una cartulina el viernes, puede marcar el recordatorio como efímero, cuando pase el día viernes el recordatorio automáticamente se borrará.
+##Descripción General
+
+###Caliso es una aplicación diseñada para ayudar a los usuarios a evitar olvidos en su vida diaria. Ya sea para recordar realizar tareas importantes, llevar objetos necesarios o simplemente organizar las actividades diarias, Caliso ofrece una solución sencilla e intuitiva. Su funcionalidad principal es permitir que los usuarios creen recordatorios de tareas y objetos que necesitan atención a lo largo del día, convirtiéndola en una herramienta esencial para mejorar la organización y la productividad.
+
+##Planteamiento del Problema
+
+###Todos, independientemente de su profesión o rutina diaria, somos propensos a olvidar cosas. Ya sea un trabajador, estudiante, deportista u oficinista, a menudo se olvidan tareas u objetos importantes, como las llaves, la billetera o la realización de trabajos pendientes. Caliso aborda este problema universal ofreciendo una solución simple y efectiva para garantizar que los usuarios no olviden sus tareas ni los objetos necesarios.
+
+##Características Principales
+
+1. Recordatorios de Tareas: Permite crear recordatorios personalizados para las tareas diarias, ayudando a los usuarios a cumplir con sus responsabilidades.
+
+2. Recordatorios de Objetos: Configura recordatorios para objetos importantes, como llaves, billetera, gafas, etc., asegurando que los usuarios no salgan de casa sin ellos.
+
+3. Recordatorios Recurrentes: Los usuarios pueden programar recordatorios que se repitan semanalmente o solo una vez, ajustándose a sus necesidades.
+
+4. Interfaz Fácil de Usar: Diseñada para ser intuitiva y accesible para usuarios de todas las edades, desde niños hasta adultos mayores.
+
+5. Lista de Verificación Diaria: Proporciona una vista general día a día (de lunes a domingo) para organizar tanto las tareas como los objetos que deben recordarse.
+
+##Público Objetivo
+
+###Caliso está diseñada para usuarios de todas las edades, desde profesionales ocupados hasta estudiantes, deportistas y personas mayores. La aplicación ofrece una interfaz simple y navegación sencilla, haciéndola ideal para cualquiera que desee mejorar su organización y memoria mediante recordatorios diarios.
+
+##Metodología de Desarrollo
+
+###El equipo de desarrollo de Caliso empleará la metodología SCRUM, enfocándose en Sprints cortos para entregar resultados funcionales rápidamente. El proceso incluirá:
+
+-Sprints: Ciclos cortos de desarrollo enfocados en implementar características y resolver problemas de manera rápida.
+
+-Gestión del Backlog: Organización de tareas y características en un Backlog para priorizar el desarrollo según las necesidades del usuario.
+
+-Seguimiento de Tareas con Trello: Uso de tableros de Trello para organizar Sprints, gestionar tareas y monitorear el progreso.
+
+##USO
+
+1. Crear un Recordatorio de Tarea:
+
+	-Abre la aplicación y toca en "Crear Nueva Tarea."
+
+	-Añade los detalles de la tarea, selecciona la hora del recordatorio y guarda.
+2. Crear un Recordatorio de Objeto:
+
+	-Ve a la sección de "Objetos" y selecciona los ítems que sueles olvidar.
+
+	-Configura recordatorios para días específicos o según sea necesario.
+3. Gestionar Recordatorios Recurrentes:
+
+	-Elige si un recordatorio de tarea u objeto debe repetirse semanalmente o ser un recordatorio único.
+
