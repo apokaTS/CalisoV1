@@ -9,7 +9,7 @@
 
 ## **Planteamiento del Problema**
 
-###Todos, independientemente de su profesión o rutina diaria, somos propensos a olvidar cosas. Ya sea un trabajador, estudiante, deportista u oficinista, a menudo se olvidan tareas u objetos importantes, como las llaves, la billetera o la realización de trabajos pendientes. Caliso aborda este problema universal ofreciendo una solución simple y efectiva para garantizar que los usuarios no olviden sus tareas ni los objetos necesarios.
+### Todos, independientemente de su profesión o rutina diaria, somos propensos a olvidar cosas. Ya sea un trabajador, estudiante, deportista u oficinista, a menudo se olvidan tareas u objetos importantes, como las llaves, la billetera o la realización de trabajos pendientes. Caliso aborda este problema universal ofreciendo una solución simple y efectiva para garantizar que los usuarios no olviden sus tareas ni los objetos necesarios.
 
 ## **Características Principales**
 
@@ -41,15 +41,15 @@
 
 1. Crear un Recordatorio de Tarea:
 
-	-Abre la aplicación y toca en "Crear Nueva Tarea."
+	- Abre la aplicación y toca en "Crear Nueva Tarea."
 
-	-Añade los detalles de la tarea, selecciona la hora del recordatorio y guarda.
+	- Añade los detalles de la tarea, selecciona la hora del recordatorio y guarda.
 2. Crear un Recordatorio de Objeto:
 
-	-Ve a la sección de "Objetos" y selecciona los ítems que sueles olvidar.
+	- Ve a la sección de "Objetos" y selecciona los ítems que sueles olvidar.
 
-	-Configura recordatorios para días específicos o según sea necesario.
+	- Configura recordatorios para días específicos o según sea necesario.
 3. Gestionar Recordatorios Recurrentes:
 
-	-Elige si un recordatorio de tarea u objeto debe repetirse semanalmente o ser un recordatorio único.
+	- Elige si un recordatorio de tarea u objeto debe repetirse semanalmente o ser un recordatorio único.
 
