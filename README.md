@@ -1,79 +1,55 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# **Caliso** - Aplicación de Recordatorios de Tareas y Objetos
+### Nombre del Proyecto: Caliso
+### Versión: 1.0.0
+### Fecha: Octubre 2024
 
-# Getting Started
+## **Descripción General**
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+### Caliso es una aplicación diseñada para ayudar a los usuarios a evitar olvidos en su vida diaria. Ya sea para recordar realizar tareas importantes, llevar objetos necesarios o simplemente organizar las actividades diarias, Caliso ofrece una solución sencilla e intuitiva. Su funcionalidad principal es permitir que los usuarios creen recordatorios de tareas y objetos que necesitan atención a lo largo del día, convirtiéndola en una herramienta esencial para mejorar la organización y la productividad.
 
-## Step 1: Start the Metro Server
+## **Planteamiento del Problema**
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### Todos, independientemente de su profesión o rutina diaria, somos propensos a olvidar cosas. Ya sea un trabajador, estudiante, deportista u oficinista, a menudo se olvidan tareas u objetos importantes, como las llaves, la billetera o la realización de trabajos pendientes. Caliso aborda este problema universal ofreciendo una solución simple y efectiva para garantizar que los usuarios no olviden sus tareas ni los objetos necesarios.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## **Características Principales**
 
-```bash
-# using npm
-npm start
+1. Recordatorios de Tareas: Permite crear recordatorios personalizados para las tareas diarias, ayudando a los usuarios a cumplir con sus responsabilidades.
 
-# OR using Yarn
-yarn start
-```
+2. Recordatorios de Objetos: Configura recordatorios para objetos importantes, como llaves, billetera, gafas, etc., asegurando que los usuarios no salgan de casa sin ellos.
 
-## Step 2: Start your Application
+3. Recordatorios Recurrentes: Los usuarios pueden programar recordatorios que se repitan semanalmente o solo una vez, ajustándose a sus necesidades.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+4. Interfaz Fácil de Usar: Diseñada para ser intuitiva y accesible para usuarios de todas las edades, desde niños hasta adultos mayores.
 
-### For Android
+5. Lista de Verificación Diaria: Proporciona una vista general día a día (de lunes a domingo) para organizar tanto las tareas como los objetos que deben recordarse.
 
-```bash
-# using npm
-npm run android
+## **Público Objetivo**
 
-# OR using Yarn
-yarn android
-```
+### Caliso está diseñada para usuarios de todas las edades, desde profesionales ocupados hasta estudiantes, deportistas y personas mayores. La aplicación ofrece una interfaz simple y navegación sencilla, haciéndola ideal para cualquiera que desee mejorar su organización y memoria mediante recordatorios diarios.
 
-### For iOS
+## **Metodología de Desarrollo**
 
-```bash
-# using npm
-npm run ios
+### El equipo de desarrollo de Caliso empleará la metodología SCRUM, enfocándose en Sprints cortos para entregar resultados funcionales rápidamente. El proceso incluirá:
 
-# OR using Yarn
-yarn ios
-```
+- Sprints: Ciclos cortos de desarrollo enfocados en implementar características y resolver problemas de manera rápida.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+- Gestión del Backlog: Organización de tareas y características en un Backlog para priorizar el desarrollo según las necesidades del usuario.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+- Seguimiento de Tareas con Trello: Uso de tableros de Trello para organizar Sprints, gestionar tareas y monitorear el progreso.
 
-## Step 3: Modifying your App
+## USO
 
-Now that you have successfully run the app, let's modify it.
+1. Crear un Recordatorio de Tarea:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+	- Abre la aplicación y toca en "Crear Nueva Tarea."
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+	- Añade los detalles de la tarea, selecciona la hora del recordatorio y guarda.
+2. Crear un Recordatorio de Objeto:
 
-## Congratulations! :tada:
+	- Ve a la sección de "Objetos" y selecciona los ítems que sueles olvidar.
 
-You've successfully run and modified your React Native App. :partying_face:
+	- Configura recordatorios para días específicos o según sea necesario.
+3. Gestionar Recordatorios Recurrentes:
 
-### Now what?
+	- Elige si un recordatorio de tarea u objeto debe repetirse semanalmente o ser un recordatorio único.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
