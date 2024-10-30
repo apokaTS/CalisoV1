@@ -1,95 +1,94 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
-import type {PropsWithChildren} from 'react';
 import {
   SafeAreaView,
   ScrollView,
-  StatusBar,
   StyleSheet,
-  Text,
-  useColorScheme,
   View,
+  ImageBackground,
 } from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-}
-
+import CardTask from './src/components/CardTask/CardTask';
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+  const taskList = [
+    {
+      id: 0,
+      desc: 'Hacer 20 planas',
+    },
+    {
+      id: 1,
+      desc: 'Mamadas (DONDE)',
+    },
+    {
+      id: 2,
+      desc: 'Ensayo de algo',
+    },
+  ];
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
+  const arrayTask = [{
+    title: 'Tarea de Español',
+    task: taskList,
+    inicio: '10-10-2024',
+    final: '15-10-2024',
+    status: '#04BB00',
+  },
+  {
+    title: 'Tarea de Filosofia',
+    task: taskList,
+    inicio: '10-10-2024',
+    final: '15-10-2024',
+    status: '#04BB00',
+  },
+  {
+    title: 'Tarea de Matematicas',
+    task: taskList,
+    inicio: '10-10-2024',
+    final: '15-10-2024',
+    status: '#FF9900',
+  },
+  {
+    title: 'Tarea de Termodinamica',
+    task: taskList,
+    inicio: '10-10-2024',
+    final: '15-10-2024',
+    status: '#04BB00',
+  },
+  {
+    title: 'Tarea de Biologia',
+    task: taskList,
+    inicio: '10-10-2024',
+    final: '15-10-2024',
+    status: '#FF9900',
+  },
+  {
+    title: 'Tarea de Fisica',
+    task: taskList,
+    inicio: '10-10-2024',
+    final: '15-10-2024',
+    status: '#04BB00',
+  },
+  {
+    title: 'Tarea de Programacion',
+    task: taskList,
+    inicio: '10-10-2024',
+    final: '15-10-2024',
+    status: '#FF0000',
+  },
+  {
+    title: 'Tarea de Aereonautica',
+    task: taskList,
+    inicio: '10-10-2024',
+    final: '15-10-2024',
+    status: '#04BB00',
+  },
+  ];
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
+    <SafeAreaView style = {styles.container}>
+      <ScrollView contentContainerStyle = {styles.contentContainerStyle}>
+        <View style = {styles.mainContainer}>
+          <ImageBackground style = {styles.backgroundContainer} source={require('../calisoApp/src/assets/calisobg.png')}>
+          {arrayTask.map((item, id) => (
+            <CardTask title={item.title} limitTask={item.final} onPress={() => console.log(item.title)} startTask={item.inicio} statusCard={item.status} task={item.task} key={id}/>
+          ))}
+          </ImageBackground>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -97,22 +96,24 @@ function App(): React.JSX.Element {
 }
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+  mainContainer: {
+    flex : 1,
+    backgroundColor : '#FFF',
+    },
+  backgroundContainer: {
+    alignItems : 'center',
+    height : '100%',
+    width : '100%',
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
+  container : {
+    flex : 1,
   },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
+  contentContainerStyle : {
+    flexGrow: 1,
   },
 });
+
+
+
 
 export default App;
