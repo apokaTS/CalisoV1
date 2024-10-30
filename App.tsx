@@ -95,8 +95,6 @@ function App(): React.JSX.Element {
   );
 }
 
-  const{ width, height } = Dimensions.get('screen');
-
 const styles = StyleSheet.create({
   mainContainer: {
     flex : 1,
