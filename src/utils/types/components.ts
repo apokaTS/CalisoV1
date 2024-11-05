@@ -11,3 +11,8 @@ type ArrayTask = {
     id: number;
     desc: string;
 }
+
+export type FilterLabelTypes = {
+    label : string;
+    onClose : () => void;
+}

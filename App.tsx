@@ -7,6 +7,9 @@ import {
   ImageBackground,
 } from 'react-native';
 import CardTask from './src/components/CardTask/CardTask';
+import FilterLabel from './src/components/FilterLabel/FilterLabel';
+import SearchPad from './src/components/SearchPad/SearchPad';
+import FilterSearch from './src/components/FilterSearch/FilterSearch';
 function App(): React.JSX.Element {
   const taskList = [
     {
@@ -85,6 +88,8 @@ function App(): React.JSX.Element {
       <ScrollView contentContainerStyle = {styles.contentContainerStyle}>
         <View style = {styles.mainContainer}>
           <ImageBackground style = {styles.backgroundContainer} source={require('../calisoApp/src/assets/calisobg.png')}>
+          <SearchPad />
+          <FilterSearch />
           {arrayTask.map((item, id) => (
             <CardTask title={item.title} limitTask={item.final} onPress={() => console.log(item.title)} startTask={item.inicio} statusCard={item.status} task={item.task} key={id}/>
           ))}
